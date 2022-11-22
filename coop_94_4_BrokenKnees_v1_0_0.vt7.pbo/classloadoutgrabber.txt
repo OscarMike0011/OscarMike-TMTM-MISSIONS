@@ -1,0 +1,18 @@
+_all = [];
+
+{
+  _loadout = [_x] call XPT_fnc_exportInventory;
+ _unit = _x;
+ _displayName = typeOf _unit;
+  _all pushBack "class" + " " + _displayName;
+  _all pushback endl;
+  _all pushBack "{";
+  _all pushBack endl;
+  _all pushBack _loadout;
+  _all pushBack "}";
+  _all pushBack endl;
+  _all pushBack endl;
+} forEach switchableUnits;
+
+_allString = _all joinString "";
+copyToClipboard _allString

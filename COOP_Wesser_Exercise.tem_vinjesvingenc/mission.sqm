@@ -1,0 +1,197 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1025;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
+	class ItemIDProvider
+	{
+		nextID=1065;
+	};
+	class LayerIndexProvider
+	{
+		nextID=17;
+	};
+	class Camera
+	{
+		pos[]={1231.5836,156.39101,5363.0552};
+		dir[]={-0.037952978,-0.62399334,-0.78052294};
+		up[]={-0.03030649,0.78141958,-0.62326884};
+		aside[]={-0.99883139,-9.9942554e-008,0.048569411};
+	};
+};
+binarizationWanted=0;
+sourceName="COOP_Wesser_Exercise";
+addons[]=
+{
+	"A3_Modules_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=16185264;
+class ScenarioData
+{
+	author="OscarMike";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.70028275;
+		startWind=0.1000001;
+		startRain=0.29635113;
+		startLightnings=0.053992189;
+		startWaves=0.1;
+		forecastWeather=1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastRain=1;
+		forecastLightnings=1;
+		rainForced=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=2022;
+		month=12;
+		day=23;
+		hour=14;
+		minute=19;
+		startFogBase=-1000;
+		forecastFogBase=-754.76721;
+		startFogDecay=0;
+		forecastFogDecay=0.00630295;
+	};
+	class Entities
+	{
+		items=2;
+		class Item0
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4271.2808,222.5867,187.55901};
+			};
+			areaSize[]={77.364998,0,67.464996};
+			areaIsRectangle=1;
+			flags=1;
+			id=0;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=17.360001;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=7;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4491.1738,249.43417,2494.4744};
+				angles[]={0,0.33741546,0};
+			};
+			areaSize[]={142.56229,0,149.25409};
+			areaIsRectangle=1;
+			flags=1;
+			id=1;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=31.29068;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=7;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};
