@@ -25,3 +25,58 @@ if (!isServer) exitWith {};
 	This makes sure that zeus units have the same tasks that the players do
 */
 // Place tasks here
+[
+	[true, "zeus_1", "zeus_2", "zeus_3"],
+	"radios",
+	["Destroy them", "Destroy The Radio Stations", "marker"],
+	[ObjNull],
+	"CREATED",
+	10,
+	true,
+	"destroy",
+	true
+] call BIS_fnc_taskCreate;
+	[
+		[true, "zeus_1", "zeus_2", "zeus_3"],
+		["radio1", "radios"],
+		["Turn if off", "Radio#1", "marker"],
+		[ObjNull],
+		"CREATED",
+		10,
+		true,
+		"interact",
+		true
+	] call BIS_fnc_taskCreate;
+	[
+		[true, "zeus_1", "zeus_2", "zeus_3"],
+		["radio2", "radios"],
+		["Turn if off", "Radio#2", "marker"],
+		[ObjNull],
+		"CREATED",
+		10,
+		true,
+		"interact",
+		true
+	] call BIS_fnc_taskCreate;
+	[
+		[true, "zeus_1", "zeus_2", "zeus_3"],
+		["radio3", "radios"],
+		["Turn if off", "Radio#3", "marker"],
+		[ObjNull],
+		"CREATED",
+		10,
+		true,
+		"interact",
+		true
+	] call BIS_fnc_taskCreate;
+	[
+		[true, "zeus_1", "zeus_2", "zeus_3"],
+		["radio4", "radios"],
+		["Turn if off", "Radio#4", "marker"],
+		[ObjNull],
+		"CREATED",
+		10,
+		true,
+		"interact",
+		true
+	] call BIS_fnc_taskCreate;

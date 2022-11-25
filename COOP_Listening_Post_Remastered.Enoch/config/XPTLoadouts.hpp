@@ -256,6 +256,28 @@ class loadouts
 		basicMedVest[] = {{"ACE_fieldDressing",15},{"ACE_epinephrine",5},{"ACE_morphine",5},{"ACE_tourniquet",4}};
 		basicMedBackpack[] = {};
 	};
+	class B_Pilot_F {
+		// Requires the following DLC:
+		// Contact Platform
+		displayName = "Pilot@Bird";
+
+		primaryWeapon[] = {"SMG_01_Holo_F","CUP_muzzle_mfsup_Suppressor_Mac10","","optic_Holosight_smg",{"30Rnd_45ACP_Mag_SMG_01",25},{},""};
+		secondaryWeapon[] = {};
+		handgunWeapon[] = {};
+
+		uniformClass = "U_B_PilotCoveralls";
+		headgearClass = "H_PilotHelmetFighter_B";
+		facewearClass = "tmtm_f_balaclava_ratnik_headphones_winter";
+		backpackClass = "FRXA_tf_rt1523g_big_UCP";
+
+		linkedItems[] = {"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch",""};
+
+		uniformItems[] = {};
+		backpackItems[] = {{"ToolKit",1},{"30Rnd_45ACP_Mag_SMG_01_Tracer_Green",2,25}};
+
+		basicMedUniform[] = {{"ACE_epinephrine",5},{"ACE_fieldDressing",15},{"ACE_tourniquet",4},{"ACE_morphine",4}};
+		basicMedBackpack[] = {};
+	};
 
 
 
