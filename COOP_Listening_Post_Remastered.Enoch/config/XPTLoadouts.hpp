@@ -25,7 +25,7 @@ class loadouts
 		backpackClass = "B_AssaultPack_mcamo";
 		
 		// Linked items requires all six definitions to be present. Use empty strings if you do not want to add that item.
-		linkedItems[] = {"ItemMap", "ItemGPS", "ItemRadio", "ItemCompass", "ItemWatch", ""}; // Linked items for the unit, must follow the order of: Map, GPS, Radio, Compass, Watch, NVGs.
+		linkedItems[] = {"ItemMap", "ItemGPS", "TFAR_anprc152", "ItemCompass", "ItemWatch", ""}; // Linked items for the unit, must follow the order of: Map, GPS, Radio, Compass, Watch, NVGs.
 		
 		// When placed in an item array, magazines should also have their ammo count defined
 		uniformItems[] = {{"FirstAidKit", 3}, {"30Rnd_65x39_caseless_mag", 4, 30}}; // Items to place in uniform. Includes weapon magazines
@@ -58,11 +58,11 @@ class loadouts
 	
 	class B_W_Officer_F {
 		// Requires the following DLC:
-		// Western Sahara
+		
 		// Contact Platform
 		displayName = "Commander@Godfather";
 
-		primaryWeapon[] = {"arifle_MXC_khk_F","","acc_pointer_IR_lush_lxWS","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
+		primaryWeapon[] = {"arifle_MX_Black_Pointer_F","","acc_pointer_IR","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
 		secondaryWeapon[] = {};
 		handgunWeapon[] = {"hgun_Pistol_heavy_01_F","","","",{"11Rnd_45ACP_Mag",15},{},""};
 		binocular = "Rangefinder";
@@ -73,7 +73,7 @@ class loadouts
 		vestClass = "V_PlateCarrierSpec_wdl";
 		backpackClass = "FRXA_tf_rt1523g_Ranger_Green";
 
-		linkedItems[] = {"ItemMap","ItemMicroDAGR","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
+		linkedItems[] = {"ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
 
 		uniformItems[] = {{"ACE_IR_Strobe_Item",4}};
 		vestItems[] = {{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1},{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",6,30}};
@@ -86,11 +86,11 @@ class loadouts
 
 	class B_W_Medic_F {
 		// Requires the following DLC:
-		// Western Sahara
+		
 		// Contact Platform
 		displayName = "Medic@Godfather";
 
-		primaryWeapon[] = {"arifle_MX_Black_Pointer_F","","acc_pointer_IR_lush_lxWS","optic_ACO_grn",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
+		primaryWeapon[] = {"arifle_MX_Black_Pointer_F","","acc_pointer_IR","optic_ACO_grn",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
 		secondaryWeapon[] = {};
 		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
 
@@ -112,11 +112,11 @@ class loadouts
 	};
 	class B_W_Soldier_F {
 		// Requires the following DLC:
-		// Western Sahara
+		
 		// Contact Platform
 		displayName = "Rifleman@Alpha";
 
-		primaryWeapon[] = {"arifle_MX_Black_ACO_Pointer_F","","acc_pointer_IR_lush_lxWS","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
+		primaryWeapon[] = {"arifle_MX_Black_ACO_Pointer_F","","acc_pointer_IR","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
 		secondaryWeapon[] = {};
 		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
 
@@ -136,11 +136,11 @@ class loadouts
 
 	class B_W_soldier_M_F {
 		// Requires the following DLC:
-		// Western Sahara
+		
 		// Contact Platform
 		displayName = "Marksman@Alpha";
 
-		primaryWeapon[] = {"CUP_srifle_M14_DMR","","acc_pointer_IR_lush_lxWS","optic_Arco_lush_F",{"CUP_20Rnd_TE1_Green_Tracer_762x51_DMR",20},{},"bipod_01_F_blk"};
+		primaryWeapon[] = {"CUP_srifle_M14_DMR","","acc_pointer_IR","optic_Arco_lush_F",{"CUP_20Rnd_TE1_Green_Tracer_762x51_DMR",20},{},"bipod_01_F_blk"};
 		secondaryWeapon[] = {};
 		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
 		binocular = "Rangefinder";
@@ -161,11 +161,11 @@ class loadouts
 
 	class B_W_Soldier_LAT_F {
 		// Requires the following DLC:
-		// Western Sahara
+		
 		// Contact Platform
 		displayName = "Rifleman AT@Alpha";
 
-		primaryWeapon[] = {"arifle_MX_Black_ACO_Pointer_F","","acc_pointer_IR_lush_lxWS","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
+		primaryWeapon[] = {"arifle_MX_Black_ACO_Pointer_F","","acc_pointer_IR","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
 		secondaryWeapon[] = {"launch_MRAWS_green_rail_F","","","",{"MRAWS_HEAT_F",1},{},""};
 		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
 
@@ -174,7 +174,7 @@ class loadouts
 		vestClass = "V_PlateCarrier2_wdl";
 		backpackClass = "B_AssaultPack_wdl_BWLAT_F";
 
-		linkedItems[] = {"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
+		linkedItems[] = {"ItemMap","","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
 
 		uniformItems[] = {{"ACE_IR_Strobe_Item",4}};
 		vestItems[] = {{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",6,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1},{"16Rnd_9x21_Mag",1,17}};
@@ -187,11 +187,11 @@ class loadouts
 
 	class B_W_Soldier_GL_F {
 		// Requires the following DLC:
-		// Western Sahara
+		
 		// Contact Platform
 		displayName = "Grenadier@Alpha";
 
-		primaryWeapon[] = {"arifle_MX_GL_Black_ACO_F","","acc_pointer_IR_lush_lxWS","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{"1Rnd_HE_Grenade_shell",1},""};
+		primaryWeapon[] = {"arifle_MX_GL_Black_ACO_F","","acc_pointer_IR","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{"1Rnd_HE_Grenade_shell",1},""};
 		secondaryWeapon[] = {};
 		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
 
@@ -200,7 +200,7 @@ class loadouts
 		facewearClass = "tmtm_f_balaclava_ratnik_headphones";
 		vestClass = "V_PlateCarrierGL_wdl";
 
-		linkedItems[] = {"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
+		linkedItems[] = {"ItemMap","","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
 
 		uniformItems[] = {{"ACE_IR_Strobe_Item",4}};
 		vestItems[] = {{"ACE_HuntIR_monitor",1},{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",6,30},{"ACE_HuntIR_M203",2,1},{"UGL_FlareCIR_F",2,1},{"CUP_1Rnd_HEDP_M203",6,1},{"16Rnd_9x21_Mag",2,17},{"1Rnd_SmokeBlue_Grenade_shell",1,1},{"1Rnd_Smoke_Grenade_shell",1,1}};
@@ -210,11 +210,11 @@ class loadouts
 	};
 	class B_W_Soldier_AR_F {
 		// Requires the following DLC:
-		// Western Sahara
+		
 		// Contact Platform
 		displayName = "Autorifleman@Delta";
 
-		primaryWeapon[] = {"arifle_MX_SW_Black_Pointer_F","","acc_pointer_IR_lush_lxWS","optic_ACO_grn",{"ACE_100Rnd_65x39_caseless_mag_Tracer_Dim",100},{},"bipod_01_F_blk"};
+		primaryWeapon[] = {"arifle_MX_SW_Black_Pointer_F","","acc_pointer_IR","optic_ACO_grn",{"ACE_100Rnd_65x39_caseless_mag_Tracer_Dim",100},{},"bipod_01_F_blk"};
 		secondaryWeapon[] = {};
 		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
 
@@ -270,12 +270,38 @@ class loadouts
 		facewearClass = "tmtm_f_balaclava_ratnik_headphones_winter";
 		backpackClass = "FRXA_tf_rt1523g_big_UCP";
 
-		linkedItems[] = {"ItemMap","ItemcTab","ItemRadio","ItemCompass","ItemWatch",""};
+		linkedItems[] = {"ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch",""};
 
 		uniformItems[] = {};
 		backpackItems[] = {{"ToolKit",1},{"30Rnd_45ACP_Mag_SMG_01_Tracer_Green",2,25}};
 
 		basicMedUniform[] = {{"ACE_epinephrine",5},{"ACE_fieldDressing",15},{"ACE_tourniquet",4},{"ACE_morphine",4}};
+		basicMedBackpack[] = {};
+	};
+
+	class B_W_Soldier_UAV_F {
+		// Requires the following DLC:
+		// Contact Platform
+		displayName = "UAV Operator@Godfather";
+
+		primaryWeapon[] = {"arifle_MXC_Black_Holo_Pointer_F","","acc_pointer_IR","optic_Holosight_blk_F",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
+		secondaryWeapon[] = {};
+		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
+
+		uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
+		headgearClass = "H_HelmetB_plain_wdl";
+		facewearClass = "tmtm_f_GSSh01_headphones";
+		vestClass = "V_PlateCarrier1_wdl";
+		backpackClass = "B_UAV_01_backpack_F";
+
+		linkedItems[] = {"ItemMap","B_UavTerminal","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
+
+		uniformItems[] = {{"ACE_IR_Strobe_Item",4}};
+		vestItems[] = {{"ACE_UAVBattery",2},{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",6,30}};
+		backpackItems[] = {};
+
+		basicMedUniform[] = {{"ACE_tourniquet",4},{"ACE_morphine",5},{"ACE_epinephrine",5},{"ACE_fieldDressing",15}};
+		basicMedVest[] = {};
 		basicMedBackpack[] = {};
 	};
 
