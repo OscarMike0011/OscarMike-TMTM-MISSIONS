@@ -1,7 +1,7 @@
 //-------------------- Mission Information
 
 author = "OscarMike";					// Author name visible on loading screen. DO NOT EDIT IF USING BUILD SCRIPT
-briefingName = "COOP 56+3 Listening Post Remastered v1.0";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
+briefingName = "COOP 56+3 Listening Post Remastered v1.1";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
 overviewText = "You may not play if poor *OMEGALUL*";				// Description visible in mission select screen
 //overviewPicture = "";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "Listening Post Remastered";				// Name visible on loading screen

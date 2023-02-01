@@ -86,9 +86,8 @@ class loadouts
 
 	class B_W_Medic_F {
 		// Requires the following DLC:
-		
 		// Contact Platform
-		displayName = "Medic@Godfather";
+		displayName = "B_W_Medic_F";
 
 		primaryWeapon[] = {"arifle_MX_Black_Pointer_F","","acc_pointer_IR","optic_ACO_grn",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
 		secondaryWeapon[] = {};
@@ -108,8 +107,9 @@ class loadouts
 
 		basicMedUniform[] = {};
 		basicMedVest[] = {};
-		basicMedBackpack[] = {{"ACE_fieldDressing",40},{"ACE_bloodIV_500",10},{"ACE_epinephrine",20},{"ACE_morphine",20},{"ACE_personalAidKit",1},{"ACE_tourniquet",6}};
+		basicMedBackpack[] = {{"ACE_fieldDressing",40},{"ACE_bloodIV_500",5},{"ACE_epinephrine",20},{"ACE_morphine",20},{"ACE_personalAidKit",1},{"ACE_tourniquet",6},{"ACE_bloodIV_250",3},{"ACE_bloodIV",2}};
 	};
+
 	class B_W_Soldier_F {
 		// Requires the following DLC:
 		
@@ -159,14 +159,13 @@ class loadouts
 		basicMedVest[] = {};
 	};
 
-	class B_W_Soldier_LAT_F {
+class B_W_Soldier_LAT_F {
 		// Requires the following DLC:
-		
 		// Contact Platform
-		displayName = "Rifleman AT@Alpha";
+		displayName = "B_W_Soldier_LAT_F";
 
 		primaryWeapon[] = {"arifle_MX_Black_ACO_Pointer_F","","acc_pointer_IR","optic_Aco",{"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",30},{},""};
-		secondaryWeapon[] = {"launch_MRAWS_green_rail_F","","","",{"MRAWS_HEAT_F",1},{},""};
+		secondaryWeapon[] = {"launch_MRAWS_green_F","","","",{"MRAWS_HEAT_F",1},{},""};
 		handgunWeapon[] = {"hgun_P07_khk_F","","","",{"16Rnd_9x21_Mag",17},{},""};
 
 		uniformClass = "U_B_CombatUniform_mcam_wdl_f";
@@ -184,6 +183,7 @@ class loadouts
 		basicMedVest[] = {};
 		basicMedBackpack[] = {};
 	};
+
 
 	class B_W_Soldier_GL_F {
 		// Requires the following DLC:
