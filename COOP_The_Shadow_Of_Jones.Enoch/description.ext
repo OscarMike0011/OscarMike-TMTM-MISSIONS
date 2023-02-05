@@ -1,7 +1,7 @@
 //-------------------- Mission Information
 
 author = "OscarMike";					// Author name visible on loading screen. DO NOT EDIT IF USING BUILD SCRIPT
-briefingName = "COOP 55+3 - The Shadow Of Jones V1.1";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
+briefingName = "COOP 55+3 - The Shadow Of Jones V1.2";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
 overviewText = "seriously you should really buy the contact dlc";				// Description visible in mission select screen
 //overviewPicture = "";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "The Shadow Of Jones";				// Name visible on loading screen

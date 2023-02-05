@@ -218,13 +218,14 @@ class loadouts
 		basicMedVest[] = {};
 		basicMedBackpack[] = {};
 	};
+
 	class B_W_Soldier_AR_F {
 		// Requires the following DLC:
 		// Contact Platform
 		// Apex
-		displayName = "B_W_Soldier_AR_F";
+		displayName = "Autorifleman@Foxtrot";
 
-		primaryWeapon[] = {"arifle_MX_SW_Black_Pointer_F","muzzle_snds_H","acc_pointer_IR","optic_Hamr",{"100Rnd_65x39_caseless_black_mag_tracer",100},{},"bipod_01_F_blk"};
+		primaryWeapon[] = {"arifle_MX_SW_Black_Pointer_F","muzzle_snds_H","acc_pointer_IR","CUP_optic_HoloBlack",{"100Rnd_65x39_caseless_black_mag_tracer",100},{},"bipod_01_F_blk"};
 		secondaryWeapon[] = {};
 		handgunWeapon[] = {};
 
@@ -232,18 +233,19 @@ class loadouts
 		headgearClass = "H_HelmetSpecB_wdl";
 		facewearClass = "G_AirPurifyingRespirator_01_F";
 		vestClass = "V_PlateCarrier2_wdl";
-		backpackClass = "B_CombinationUnitRespirator_01_F";
+		backpackClass = "B_Carryall_wdl_F";
 
 		linkedItems[] = {"ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch","CUP_NVG_GPNVG_green"};
 
 		uniformItems[] = {};
-		vestItems[] = {,{"100Rnd_65x39_caseless_black_mag_tracer",4,100},{"CUP_HandGrenade_M67",2,1}};
-		backpackItems[] = {};
+		vestItems[] = {{"RyanZombiesAntiVirusCure_Item",5},{"100Rnd_65x39_caseless_black_mag_tracer",4,100},{"CUP_HandGrenade_M67",2,1}};
+		backpackItems[] = {{"100Rnd_65x39_caseless_black_mag_tracer",6,100}};
 
 		basicMedUniform[] = {{"ACE_fieldDressing",15},{"ACE_epinephrine",5},{"ACE_morphine",5},{"ACE_tourniquet",4}};
 		basicMedVest[] = {};
 		basicMedBackpack[] = {};
 	};
+
 	class B_W_Soldier_Exp_F {
 		// Requires the following DLC:
 		// Contact Platform
@@ -270,6 +272,7 @@ class loadouts
 		basicMedVest[] = {};
 		basicMedBackpack[] = {};
 	};
+
 	class B_Pilot_F {
 		// Requires the following DLC:
 		// Contact Platform
@@ -289,7 +292,7 @@ class loadouts
 		uniformItems[] = {{"30Rnd_45ACP_Mag_SMG_01",3,25},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"Chemlight_green",1,1}};
 		backpackItems[] = {};
 
-		basicMedUniform[] = {{"ACE_fieldDressing",15},{"ACE_epinephrine",5},{"ACE_morphine",5},{"ACE_tourniquet",4}};
+		basicMedUniform[] = {{"ACE_fieldDressing",10},{"ACE_epinephrine",5},{"ACE_morphine",5},{"ACE_tourniquet",4}};
 		basicMedBackpack[] = {};
 	};
 

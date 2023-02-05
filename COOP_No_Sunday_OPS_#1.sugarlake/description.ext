@@ -58,7 +58,7 @@ class Header
 //#define XPT_ACEX_VIEWRESTRICTION_COOP 0			// Default view setting for co-op. 0 = Disabled. 1 = First-person only. 2 = Third-person only. 3 = Selective
 //#define XPT_ACEX_VIEWRESTRICTION_PVP 1			// Default view setting for PVP. 0 = Disabled. 1 = First-person only. 2 = Third-person only. 3 = Selective
 
-//#define XPT_ACEX_VIEWRESTRICTION_FOOT 0			// Default view setting when 'selective' is chosen. 0 = Disabled. 1 = First-person only. 2 = Third-person only.
+#define XPT_ACEX_VIEWRESTRICTION_FOOT 1			// Default view setting when 'selective' is chosen. 0 = Disabled. 1 = First-person only. 2 = Third-person only.
 //#define XPT_ACEX_VIEWRESTRICTION_LAND 0			// Default view setting when 'selective' is chosen. 0 = Disabled. 1 = First-person only. 2 = Third-person only.
 //#define XPT_ACEX_VIEWRESTRICTION_AIR 0			// Default view setting when 'selective' is chosen. 0 = Disabled. 1 = First-person only. 2 = Third-person only.
 //#define XPT_ACEX_VIEWRESTRICTION_SEA 0			// Default view setting when 'selective' is chosen. 0 = Disabled. 1 = First-person only. 2 = Third-person only.

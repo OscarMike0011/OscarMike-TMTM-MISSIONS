@@ -28,7 +28,7 @@ if (!isServer) exitWith {};
 [
 	[true, "zeus_1"],
 	"plane",
-	["Destroy them", "Destroy The ", "marker"],
+	["Raid the airbase and destroy the planes", "Destroy The Planes", "marker"],
 	[4303.73,6153.1,0],
 	"CREATED",
 	10,
