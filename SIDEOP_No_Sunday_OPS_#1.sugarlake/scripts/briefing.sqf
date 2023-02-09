@@ -36,23 +36,18 @@
 	This means if you want an extra note for a specific side that goes at the bottom of the briefing, that briefing should go at the top of this file.
 */
 
-player createDiaryRecord ["Diary", ["Assets", "Example Asset List:<br/>
-	- 1x Tank<br/>
-	- 4x Car<br/>
-	- 4x Truck<br/>
-	- 2x Helicopter
+player createDiaryRecord ["Diary", ["Assets", "Asset List:<br/>
+	- 1x MH-6J<br/>
+	- 6x RHIB<br/>
 "]];
 
 player createDiaryRecord ["Diary", ["Intel",
-"Example Intel Briefing"
+"We are fighting Russian forces with access to armored assets and fire support, however, they do not have NVD with the exception of armored assets."
 ]];
 
 
 player createDiaryRecord ["Diary", ["Mission",
-"Example Mission Briefing."
+"Russian forces are mounting a build-up of military assets in the area. Our mission is to destroy the assets in the area and capture a Russian commander.<br/>
+Good Luck."
 ]];
 
-player createDiaryRecord ["Diary", ["Situation",
-"Example Situation Briefing.
-<br/>Now with new lines."
-]];

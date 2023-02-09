@@ -1,7 +1,7 @@
 //-------------------- Mission Information
 
 author = "OscarMike";					// Author name visible on loading screen. DO NOT EDIT IF USING BUILD SCRIPT
-briefingName = "COOP 35+1 No Sunday OPS #1 v1.0";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
+briefingName = "SIDEOP 35+1 No Sunday OPS #1 v1.0";				// Name visible in mission select screen. DO NOT EDIT IF USING BUILD SCRIPT
 overviewText = "a op for the day of the sun";				// Description visible in mission select screen
 //overviewPicture = "";			// Image visible in mission select screen. Leave commented, still doesn't work properly.
 onLoadName = "No Sunday OPS #1";				// Name visible on loading screen

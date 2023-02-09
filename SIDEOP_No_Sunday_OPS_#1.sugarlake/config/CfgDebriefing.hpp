@@ -11,3 +11,10 @@ class example
 	//picture = ""; // Icon used for the closing shot
 	//pictureColor[] = {1,1,1,1}; // Colour of the icon during the closing shot. Leave as default most of the time
 };
+
+class win
+{
+    title = "MISSION COMPLETED";
+    subtitle = "Vatnik is now dead";
+    description = "Putin is not happy"; 
+};
